@@ -1,0 +1,126 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | General Error messages which are part of response
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used during authentication for various
+    | messages that we need to display to the user. You are free to modify
+    | these language lines according to your application's requirements.
+    |
+    */
+    //Client errors
+    'bad_request' => 'Something went wrong please try again',
+    'unauthorized' => 'Unauthenticated',
+    'payment_required' => 'Payment required to proceed further',
+    'payment_failed' => 'The payment has failed',
+    'payment_processing' => 'The payment is processing',
+    'forbidden' => 'You are not authorised to view/modify this resource',
+    'not_found' => 'Not found',
+    'method_not_allowed' => 'Method not allowed',
+    'conflict' => 'Duplicate resource found',
+    'unprocessable_entity' => 'The given data was invalid.',
+    'too_many_requests' => 'Too many request has been sent to server',
+    'internal_server_error' => 'Internal server error, contact system adminstrator for more information',
+    'multiple_entries_found' => 'Too many entries found.',
+    'no_data' => 'There is no data.',
+    'invalid_route' => 'The url you are hitting is not valid.',
+    //auth
+    'invalid_token' => 'The bearer token is invalid or expired',
+    'failed' => 'These credentials do not match our records.',
+    'password' => 'The provided password is incorrect.',
+    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'email_not_found' => 'Could not find the email address.',
+    'recovery_mail_sent' => 'Recovery mail has been sent to your email address.',
+    'recovery_mail_not_sent' => 'Could not send recovery mail.',
+    'reset_token_not_found' => 'Reset Password token not found.',
+    'reset_token_expired' => 'Reset Password token has expired. Please generate a new request.',
+    'password_updated' => 'Your password has been updated successfully. Please login to continue.',
+    'two_factor_auth_failed' => 'Two factor authentication failed',
+    'register_mail_link_sent' => 'Registration Link has been sent to your email address.',
+    'logout_successful' => 'Successfully logged out.',
+    'invalid_credentials' => 'Invalid credentials.',
+    'account_invalid' => 'Invalid account.',
+    'login_success' => 'Login successfull.',
+    'invalid_access' => 'Invalid access.',
+    'password_reset_token_expired' => 'The password reset token has expired. Please reset your password again.',
+    'invalid_token' => 'The token is invalid.',
+    'old_new_password_same' => 'The new password cannot be same as the old password.',
+    'user_not_verified' => 'Please verify this user account first.',
+
+    //common success
+    'request_successful' => "Your request has been completed successfully.",
+    'creation_successful' => "Requested data has been created successfully.",
+    'acceptance_successful' => "We will process your request.",
+    'deletion_successful' => "Resource deleted successfully.",
+    'update_successful' => "Requested data has been updated successfully.",
+    'reset_pass_email_sent' => 'I sent an email to reissue my password. Please check your registered email address.',
+    'password_changed' => "Password changed correctly.",
+    'incharge_added' => "Added the person in charge",
+    'shipping_added' => "Added the shipping address",
+    'incharge_deleted' => "Deleted the person in charge.",
+
+    'validation_error' => "The given data was invalid.",
+
+    //Uzone Error messages
+    'email_already_registered' => "Duplicate email address.",
+    'mail_transmission_error' => "Failed to send the email. Please check if your email address is correct.",
+
+    'verification_code_incorrect' => "The verification code is incorrect. Please enter the correct verification code.",
+    'verification_code_expired' => "The verification code has expired. Please enter your e-mail address again.",
+    'user_info_already_registered' => "This user's info is already registered, please use update feature.",
+    'cannot_delete_incharge' => 'Edit contact person , no delete.',
+    'cannot_edit_incharge' => 'You do not have permission to edit the person in charge.',
+    'incharge_deleted' => 'Incharge is deleted.',
+    'unauthorised_shipping_update' => 'You do not have permission to edit the shipping address.',
+    'image_height_width_mismatch' => 'The image height and width are different, the ratio must be 1:1.',
+    'entry_already_exists' => 'The requested data is already present.',
+    'max_photos_reached' => 'Maximum number of photos has been reached for this item.',
+    'card_details_retrieved' => "card information was acquired.",
+    'card_registered' => "Card is registered.",
+    'card_deleted' => "The card is deleted",
+    'card_default_added' => "Added as default card.",
+    'failed_card_registered' => "Failed to register your credit card. Please check your credit card information.",
+    'card_rate_limit_error' => "A communication error has occurred. Sorry to trouble you, but please try again later.",
+    'card_exceptions' => "An error has occurred. Sorry to trouble you, but please try again later.",
+    'purchase_completed' => "Purchase completed.",
+    'purchase_error' => "An error connecting to the database has occurred. Sorry to trouble you, but please try again later.",
+    'no_maker_found' => 'No makers matched with the given criteria.',
+    'part_not_found' => 'Part not found.',
+    'engine_not_found' => 'Engine not found.',
+    'exterior_color_not_found' => 'Exterior color not found.',
+    'interior_color_not_found' => 'Interior color not found.',
+    'grade_not_found' => 'Grade not found.',
+    'part_composition_not_found' => 'Part composition entry not found.',
+    'profile_picture_updated' => 'I updated my profile picture.',
+    'card_details_retrieved' => "card information was acquired.",
+    'card_registered' => "Card is registered.",
+    'card_default_added' => "Added as default card.",
+    'failed_card_registered' => "Failed to register your credit card. Please check your credit card information.",
+    'card_rate_limit_error' => "A communication error has occurred. Sorry to trouble you, but please try again later.",
+    'card_exceptions' => "An error has occurred. Sorry to trouble you, but please try again later.",
+    'profile_picture_updated' => 'I updated my profile picture.',
+    'profile_picture_updated' => 'I updated my profile picture.',
+    'multiple_makers' => 'Multiple makers found for these combinations, only one allowed.',
+    'unique_car_not_found' => 'Multiple cars exist with this name, only one is acceptable.',
+
+    'notice_info_title__type1_part1' => 'A comment was added to the commented part \'',
+    'notice_info_title__type1_part2' => '\'',
+    'notice_info_title__type2_part1' => 'The purchased parts \'',
+    'notice_info_title__type2_part2' => '\' have been shipped.',
+    'cart_excced_limit'=>'The registration limit of the cart has been exceeded',
+    'shipping' => 'Shipping',
+    'comment' => 'Comment',
+    'unread' => 'Unread',
+    'read' => 'Read',
+    'data_not_found_for_vehicle_details' => 'Data not found for given vehicle details.',
+    'unique_data_not_found_for_vehicle_details' => 'Unique data not found for given vehicle details.',
+    'mf_kessai_registration_failure' => 'Failed to register user information in MF KESSAI.',
+    'no_data_for_car_params' => 'There is no data for this combination of car details.',
+    'stripe_id_not_found' => 'Stripe customer id for the user is blank',
+    'unknown_maker' => 'The manufacturer is invalid.',
+    'favorite_deleted' => 'Removed from favorites.',
+];
